@@ -6,21 +6,21 @@ neuroPG - Open Source MATLAB Tool for DMD-based Pattern Generation, Stimulation,
 
 To run neuroPG on your system with a Mightex Polygon400 DMD you'll need the following files:
 
-CameraWindow.m
-configCamera.m
-configNeuroPG.m
-configWindows.m
-MatPad.m
-MT_Polygon400_SDK.dll
-MT_Polygon400_SDK.h
-MT_Polygon400_SDK.lib
-neuroPGGUIDE.fig
-neuroPGGUIDE.m
-nPGHeatMap.fig
-nPGHeatMap.m
-polymex.cpp
-user32.h
-AppData\MDSIConfig.dcg
++ **CameraWindow.m**
++ **configCamera.m**
++ **configNeuroPG.m**
++ **configWindows.m**
++ **MatPad.m**
++ **MT_Polygon400_SDK.dll**
++ **MT_Polygon400_SDK.h**
++ **MT_Polygon400_SDK.lib**
++ **neuroPGGUIDE.fig**
++ **neuroPGGUIDE.m**
++ **nPGHeatMap.fig**
++ **nPGHeatMap.m**
++ **polymex.cpp**
++ **user32.h**
++ **AppData\MDSIConfig.dcg**
 
 Place these files somewhere accessible to your MATLAB install and maintain the relative path of the AppData folder and its file.
 
