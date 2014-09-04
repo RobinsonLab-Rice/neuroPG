@@ -1,6 +1,6 @@
 neuroPG
 =======
-![RobinsonLab Logo]\Images\new logo.png
+![RobinsonLab Logo](\Images\new logo.png)
 Format: ![Alt Text](url)
 
 <br>
@@ -47,7 +47,11 @@ The configure DAQ function will auto-detect all compatible DAQ hardware installe
 Finally, the nueroPG settings configuration allows you to set such things as default save paths and filenames.  It also allows you to set the DMD pixel area that is visible to your microscope camera, as well as its relative orientation.  Finally, default scaling factors used for properly scaling input signals in voltage and current clamp modes can be set here as well.
 
 <br>
-
+#### Configuration Results
 The configuration process creates the file 'neuroPG.config', which is necessary for neuroPG to run.  This file saves all of your configuration settings.  If there seems to be a problem with your settings, delete or rename this file and re-configure neuroPG.  In many instances, this will solve the problem.
 
 You should now be able to run neuroPG and/or CameraWindow on your workstation.
+
+### Running nueroPG
+
+More info to follow.
