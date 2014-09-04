@@ -1,7 +1,6 @@
 neuroPG
 =======
 ![RobinsonLab Logo](/Images/new logo.png)
-Format: ![Alt Text](url)
 
 <br>
 
