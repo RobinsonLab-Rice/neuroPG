@@ -1,6 +1,7 @@
+![RobinsonLab Logo](/Images/new logo.png)
+
 neuroPG
 =======
-![RobinsonLab Logo](/Images/new logo.png)
 
 <br>
 
