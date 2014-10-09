@@ -34,7 +34,7 @@ You will need a MATLAB compatible compiler (ie Microsoft Windows SDK 7.1) to com
 ### Configuration
 First, make sure all the equipment and devices on the workstation are installed and connected properly.  Verify that your signal sources are connected to analog inputs on your DAQ hardware.  Also make sure the output trigger on the Polygon400 (or alternate DMD) is connected to an analog input on the DAQ.  Finally, connect a Timer/Counter ouput to the input trigger on the Polygon400, being careful to use a voltage divider if the DAQ outputs 5 volts instead of 3.3.
 
-![neuroPG Connections Diagram](/Images/Fig1 - Connections NF.tif)
+![neuroPG Connections Diagram](/Images/Fig1 - Connections NF.png)
 
 Now you are now ready to configure neuroPG.  Run the function _configNeuroPG.m_ from MATLAB and a window with four buttons should appear.  If you are planning on configuring a camera for CameraWindow and you don't know the resolution you will be using, configure the camera first.  If you are not using a camera, skip the next section.
 
@@ -77,11 +77,11 @@ All of the windows and UIControls (buttons, text boxes, etc...) are accessible v
 
 Below are some images of what we have done with neuroPG at RobinsonLab.
 
-![Manual Pattern Generation](/Images/Fig2 - manual pattern generation NF.tif)
+![Manual Pattern Generation](/Images/Fig2 - manual pattern generation NF.png)
 _Manual Pattern Generation for tageted neuronal stimulation._
 
-![SmartGrid Pattern Generation](/Images/Fig3 - SmartGrid pattern generation NF.tif)
+![SmartGrid Pattern Generation](/Images/Fig3 - SmartGrid pattern generation NF.png)
 _SmartGrid Pattern Generation for automated stimulation and recording._
 
-![Analyzing Response from SmartGrid Stimulation](/Images/Fig4 - magnitude of response fig NF.tig)
+![Analyzing Response from SmartGrid Stimulation](/Images/Fig4 - magnitude of response fig NF.png)
 _Analyzing neural response from SmartGrid stimulation._
