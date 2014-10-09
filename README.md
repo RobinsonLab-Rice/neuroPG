@@ -53,4 +53,6 @@ You should now be able to run neuroPG and/or CameraWindow on your workstation.
 
 ### Running nueroPG
 
-More info to follow.
+Here is a video quickly demonstrating neuroPG's basic operation.
+
+[![neuroPG Youtube Video](http://img.youtube.com/vi/9dBqYtE6-pA&feature=youtu.be/0.jpg)](http://www.youtube.com/watch?v=9dBqYtE6-pA&feature=youtu.be)
