@@ -71,6 +71,8 @@ Here is a video quickly demonstrating neuroPG's basic operation.
 
 [![neuroPG Youtube Video](http://img.youtube.com/vi/W0rtSb_5f5U/0.jpg)](https://www.youtube.com/watch?v=W0rtSb_5f5U&feature=youtu.be)
 
+[[youtube-{W0rtSb_5f5U}-{480}x{360}]]
+
 The functionality of neuroPG and CameraWindow is non-blocking, meaning that other MATLAB scripts, functions, and GUI's may be run concurrently without problems.  Of course, bear in mind that your workstation hardware must be up to the task of running everything simultaneously or there could be performace issues.
 
 All of the windows and UIControls (buttons, text boxes, etc...) are accessible via their Tag property, meaning that the user can monitor them or alter them from their own program or script.
