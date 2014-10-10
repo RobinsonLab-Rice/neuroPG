@@ -69,9 +69,11 @@ You should now be able to run neuroPG and/or CameraWindow on your workstation.
 
 Here is a video quickly demonstrating neuroPG's basic operation.
 
-[![neuroPG Youtube Video](http://img.youtube.com/vi/W0rtSb_5f5U/0.jpg)](https://www.youtube.com/watch?v=W0rtSb_5f5U&feature=youtu.be)
+<a href="https://www.youtube.com/watch?v=W0rtSb_5f5U&feature=youtu.be" target="_blank">
 
-[[youtube-{W0rtSb_5f5U}-{480}x{360}]]
+[![neuroPG Youtube Video](http://img.youtube.com/vi/W0rtSb_5f5U/0.jpg)]
+
+</a>
 
 The functionality of neuroPG and CameraWindow is non-blocking, meaning that other MATLAB scripts, functions, and GUI's may be run concurrently without problems.  Of course, bear in mind that your workstation hardware must be up to the task of running everything simultaneously or there could be performace issues.
 
