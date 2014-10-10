@@ -71,7 +71,7 @@ Here is a video quickly demonstrating neuroPG's basic operation.
 
 <a href="https://www.youtube.com/watch?v=W0rtSb_5f5U&feature=youtu.be" target="_blank">
 
-[![neuroPG Youtube Video](http://img.youtube.com/vi/W0rtSb_5f5U/0.jpg)]
+<img src="http://img.youtube.com/vi/W0rtSb_5f5U/0.jpg" alt="neuroPG Youtube Video">
 
 </a>
 
