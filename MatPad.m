@@ -58,7 +58,7 @@ while i <= numel(varargin)
                 end
                 if ~isempty(text) && ischar(varargin{i+1})
                     temp = varargin{i+1};
-                    if ~strcmp(temp(1:6),'<HTML>')
+                    if size(temp,2) < 6 || ~strcmp(temp(1:6),'<HTML>')
                         temp = textwrap(lbh,{temp},45);
                     end
                     text = [text;temp];  %#ok<AGROW>
@@ -71,7 +71,7 @@ while i <= numel(varargin)
                         editing = true;
                         editText(text);
                     else
-                        if ~strcmp(temp(1:6),'<HTML>')
+                        if size(temp,2) < 6 || ~strcmp(temp(1:6),'<HTML>')
                             temp = textwrap(lbh,{temp},45);
                         end
                         text = [text;temp]; %#ok<AGROW>
