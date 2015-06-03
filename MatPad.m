@@ -34,7 +34,10 @@ while i <= numel(varargin)
                 
             case 'close'
                 editing = false;
-                close(h);
+                if ~isempty(h) && ishandle(h)
+                    close(h);
+                end
+                return;
                 
             case 'string'
                 editing = false;
