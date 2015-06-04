@@ -144,7 +144,9 @@ while i <= numel(varargin)
                 
                 
             otherwise
-                warndlg('Unrecognized Property/Value pairs','MatPad Error');
+                inputs = [{'Unrecognized Property/Value pairs or commands:'},...
+                    varargin(i:end)];
+                warndlg(inputs,'MatPad Error');
                 return;
         end
     end
