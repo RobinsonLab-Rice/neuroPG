@@ -1,3 +1,9 @@
 *.log
 neuroPG.config
 *.config
+*.config
+MT_Polygon400_SDK.dll
+MT_Polygon400_SDK.lib
+neuroPG.config
+MT_Polygon400_SDK.h
+neuroPG.config
